@@ -23,3 +23,9 @@ Para sacar el 10, no uses HTTPS (que pide usuario/token a cada rato). Usa SSH. A
 1. Generar la llave SSH para GitHub en tu máquina virtual: Ejecuta esto y dale a "Enter" a todo (sin contraseña):
 
 ssh-keygen -t ed25519 -C "ejcbinstituto@gmail.com"
+
+creamos la ssh por github
+
+git remote set-url origin git@github.com:TU_USUARIO/TFG-Backup-System.git
+
+gt add, commit y push y ya lo tendriamos configurado

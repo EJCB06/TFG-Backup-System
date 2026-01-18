@@ -1,0 +1,18 @@
+# Archivos de entorno virtual y python
+tfg_env/
+__pycache__/
+*.pyc
+
+# Archivos de configuración con claves (IMPORTANTE)
+.env
+config.py
+credenciales_aws.txt
+
+# Archivos de backup temporales
+*.zip
+*.tar.gz
+temp/
+backups/
+
+# Logs
+*.log
